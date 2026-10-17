@@ -13,9 +13,9 @@ def test_missing_student_id():
     student_id = ""
     
     if not student_id:
-        print("Missing student ID test: PASS")
+        print("Missing ID test: PASS")
     else:
-        print("Missing student ID test: FAIL")
+        print("Missing ID test: FAIL")
 
 test_mark_attendance()
 test_missing_student_id()
